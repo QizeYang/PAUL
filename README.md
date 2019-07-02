@@ -38,8 +38,8 @@ and place it in `./snapshot/MSMT17_PRE/`
 
 ```bash
 mkdir ./snapshot
-mkdir ./sanpshot/MSMT17_PRE
-cp [PATH TO PRETRAINED MODEL] ./sanpshot/MSMT17_PRE/
+mkdir ./snapshot/MSMT17_PRE
+cp [PATH TO PRETRAINED MODEL] ./snapshot/MSMT17_PRE/
 # it means the name of the experiment of pretraining is 'MSMT17_PRE'  
 ```
 
