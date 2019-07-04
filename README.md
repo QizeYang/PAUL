@@ -33,7 +33,7 @@ ln -s [THE PATH OF IMAGENET PRE-TRAINED MODELS] imagenet_models
 cd ./src/train
 supervised_train.py --gpu [CHOOSE WHICH GPU TO RUN] --exp-name [YOUR EXP NAME]
 ```
-- Optionally, you can download our pretrained model from [google drive](https://drive.google.com/file/d/1KKzR0CoGPmEq00Aw-evH5odOAlwxuwX8/view?usp=sharing)
+- Optionally, you can download our pretrained model from [google drive](https://drive.google.com/file/d/1KKzR0CoGPmEq00Aw-evH5odOAlwxuwX8/view?usp=sharing) or [baidu disk](https://pan.baidu.com/s/17uy7VnBa037f5luMG7cGzw) (kvkz)
 and place it in `./snapshot/MSMT17_PRE/`
 
 ```bash
@@ -49,12 +49,12 @@ cd ./src/unsupervised
 
 # for market
 python unsupervised_train.py --data MARKET --gpu [CHOOSE WHICH GPU TO RUN] \
---pre-name [THE EXP THE NAME OF PRE-TRIANED MODEL] --exp-name [YOUR EXP NAME] \
+--pre-name [THE EXP NAME OF PRE-TRIANED MODEL] --exp-name [YOUR EXP NAME] \
 --batch-size 42 --scale 15 --lr 0.0001 
 
  # for duke
 python unsupervised_train.py --data DUKE --gpu [CHOOSE WHICH GPU TO RUN] \
---pre-name [THE EXP THE NAME OF PRE-TRIANED MODEL] --exp-name [YOUR EXP NAME] \
+--pre-name [THE EXP NAME OF PRE-TRIANED MODEL] --exp-name [YOUR EXP NAME] \
 --batch-size 40 --scale 5 --lr 0.0001 
 
 ```
