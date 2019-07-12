@@ -31,7 +31,7 @@ ln -s [THE PATH OF IMAGENET PRE-TRAINED MODELS] imagenet_models
 - For pretraining the model
 ```bash {.line-numbers}
 cd ./src/train
-supervised_train.py --gpu [CHOOSE WHICH GPU TO RUN] --exp-name [YOUR EXP NAME]
+python supervised_train.py --gpu [CHOOSE WHICH GPU TO RUN] --exp-name [YOUR EXP NAME]
 ```
 - Optionally, you can download our pretrained model from [google drive](https://drive.google.com/file/d/1KKzR0CoGPmEq00Aw-evH5odOAlwxuwX8/view?usp=sharing) or [baidu cloud](https://pan.baidu.com/s/17uy7VnBa037f5luMG7cGzw) (kvkz)
 and place it in `./snapshot/MSMT17_PRE/`
