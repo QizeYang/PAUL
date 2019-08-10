@@ -73,7 +73,7 @@ bib:
 ```
 @inproceedings{yu2019unsupervised,
   title={Patch-based discriminative feature learning for unsupervised person re-identification},
-  author={Qize, Yang and Yu, Hong-Xing and Wu, Ancong and Zheng, Wei-Shi},
+  author={Yang, Qize and Yu, Hong-Xing and Wu, Ancong and Zheng, Wei-Shi},
   year={2019},
   booktitle={IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)},
 }
