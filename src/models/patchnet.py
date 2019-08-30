@@ -137,7 +137,7 @@ class PatchNet(nn.Module):
 
 
 class PatchNetUn(PatchNet):
-    def __init__(self, class_num=1000, backbone=resnet50, pretrained=True, is_for_test=False,
+    def __init__(self, class_num=1000, backbone=resnet50, pretrained=False, is_for_test=False,
                  param_path='../../imagenet_models/resnet50-19c8e357.pth'):
         super(PatchNetUn, self).__init__(class_num=class_num, backbone=backbone, param_path=param_path,
                                          pretrained=pretrained, is_for_test=is_for_test)
